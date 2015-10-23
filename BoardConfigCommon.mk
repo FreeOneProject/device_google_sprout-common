@@ -85,3 +85,9 @@ USE_CAMERA_STUB := true
 # SELinux
 BOARD_SEPOLICY_DIRS += \
     device/google/sprout-common/sepolicy
+
+# VrToxin
+TARGET_VRTOXIN_ROM=4.9
+TARGET_NDK_GCC_VERSION=4.8
+TARGET_KERNEL_TOOLCHAIN=4.9
+
