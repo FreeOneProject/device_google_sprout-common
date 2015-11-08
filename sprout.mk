@@ -98,9 +98,6 @@ PRODUCT_PACKAGES += \
 
 USE_CUSTOM_AUDIO_POLICY := 1
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.telephony.ril_class=SproutRIL
-
 # FM Radio
 PRODUCT_PACKAGES += \
     FMRadio \
@@ -143,3 +140,4 @@ PRODUCT_AAPT_PREF_CONFIG := hdpi
 
 # call the proprietary setup
 $(call inherit-product, vendor/google/sprout/sprout-vendor.mk)
+
